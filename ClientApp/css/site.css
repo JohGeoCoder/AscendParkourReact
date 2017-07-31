@@ -1,0 +1,126 @@
+/* Default Styles */
+html {
+    font-size: 16px;
+    background-color: rgba(230,241,238,1);
+}
+
+html h1,h2,h3,h4,h5,h6{
+    color: rgb(51,51,51);
+}
+
+body, #react-app {
+    background-color: rgba(0,0,0,0);
+}
+
+#BackgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/*
+ * HEADER LOGO
+ */
+.header-logo-container.row {
+    overflow: hidden;
+    background-image: url(../images/McDade.jpg);
+    background-size: cover; /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-height: 200px;
+}
+
+.header-logo-container.row > .header-logo-container {
+    height: 100%;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.header-logo-container > .header-logo {
+    max-height: 100%;
+}
+
+/*
+ * NAVIGATION MENU
+ */
+.nav-container-row{
+    position: relative
+}
+.nav-container-row .nav-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: flex-start;
+}
+
+.nav-container-row .nav-container .nav-item {
+    flex-grow: 1;
+    flex-basis: auto;
+    padding: 5px;
+    width: 33%;
+    text-decoration: none;
+}
+
+.nav-container-row .nav-container .nav-item .nav-item-content {
+    background-color: rgba(46,114,246,1.0);
+    padding: 5px;
+    text-align: center;
+    height: 100%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+.nav-container-row .nav-container .nav-item.active .nav-item-content {
+    background-color: rgba(255, 108, 0, 1.0);
+}
+
+.nav-container-row .nav-container .nav-item .nav-item-content {
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.nav-container-row .nav-container > a.active > .nav-item > .nav-item-content  {
+    color: rgb(26, 234, 181);
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    /*
+     * HEADER LOGO
+     */
+    .header-logo-container.row{
+        height: 215px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    /*
+     * NAVIGATION MENU
+     */
+    .nav-container-row .nav-container > .nav-item {
+        width: 25%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .nav-container-row .nav-container {
+        position: absolute;
+        top: -50px;
+        right: 10px;
+        left: 360px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
