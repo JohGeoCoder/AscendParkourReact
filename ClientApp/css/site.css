@@ -87,6 +87,30 @@ body, #react-app {
     color: rgb(26, 234, 181);
 }
 
+/*
+ * HOME PAGE
+ */
+.home-container{
+
+}
+
+.home-container .quote-container-row{
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-container .quote-container-row img{
+    width: 100%;
+    height: auto;
+    position:absolute;
+    top: -25px;
+}
+
+.home-container .quote-container-row .quote{
+
+}
+
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
     /*
@@ -104,6 +128,16 @@ body, #react-app {
      */
     .nav-container-row .nav-container > .nav-item {
         width: 25%;
+    }
+
+    /*
+     * HOME PAGE
+     */
+    .home-container .quote-container-row {
+        height: 250px;
+    }
+    .home-container .quote-container-row img {
+        top: -170px;
     }
 }
 

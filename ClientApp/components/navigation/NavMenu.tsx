@@ -6,15 +6,14 @@ export class NavMenu extends React.Component<{}, {}> {
     public render() {
         return (
             <div>
-                <div className="row nav-container-row">
+                <nav className="row nav-container-row">
                     <div className="nav-container">
                         <NavItem linkText="Home" url="/" />
                         <NavItem linkText="Classes" url="/classes" />
                         <NavItem linkText="About Us" url="/about" />
                         <NavItem linkText="Contact" url="/contact" />
                     </div>
-                </div>
-
+                </nav>
             </div>
         )
     }
