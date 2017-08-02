@@ -15,26 +15,23 @@ export class Home extends React.Component<{}, {}> {
 
     public render() {
         return (
-            <main className="home-container">
-                <div className="quote-container-row row">
-                    <div className="">
-                        <img src={ImageKidVault} className="" />
+            <main className="home-container flexbox row">
+                <div className="quote-container flexbox-item">
+                    <div className="image cover kid-vault">
                         <div className="quote left">
                             <span>Great things come from little things</span>
                         </div>
                     </div>
                 </div>
-                <div className="quote-container-row row">
-                    <div className="">
-                        <img src={ImageRailBalance} className="" />
+                <div className="quote-container flexbox-item">
+                    <div className="image cover rail-balance">
                         <div className="quote right">
                             <span>Those who bravely dare must sometimes risk a fall</span>
                         </div>
                     </div>
                 </div>
-                <div className="quote-container-row row">
-                    <div className="">
-                        <img src={ImageClimb} className="" />
+                <div className="quote-container flexbox-item">
+                    <div className="image cover climb">
                         <div className="quote right">
                             <span>Begin Your Ascent</span>
                         </div>
