@@ -94,6 +94,28 @@
 
     }
 
+    .home-container .title{
+        background-color: rgb(208, 232, 241);
+        text-align: center;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        margin-top: 0.75rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .home-container .hero-text {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    .home-container .title h1{
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
     .home-container .quote-container{
         height: 200px;
         position: relative;
@@ -104,14 +126,18 @@
 
     .home-container .quote-container .quote{
         position: absolute;
-        bottom: 0px;
-        color: rgb(204,204,204);
-        font-size: 2em;
+        /*top: 50%;*/
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 100%;
+        color: rgba(255,255,255,0.75);
+        font-size: 1.5rem;
+        line-height: 1.5rem;
         font-weight: bold;
         letter-spacing: 1px;
-        -webkit-text-stroke-color: black;
-        -webkit-text-stroke-width: 1px;
-        text-shadow: 2px 2px 1px black;
+        text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+        text-align: center;
+        padding: 1rem;
     }
 
 /*
@@ -164,8 +190,16 @@
     /*
      * HOME PAGE
      */
+        .home-container .title h1 {
+            font-size: 1.75rem;
+        }
         .home-container .quote-container{
             width: 100%;
+        }
+
+        .home-container .quote-container .quote{
+            font-size: 2rem;
+            line-height: 2rem;
         }
 }
 
@@ -181,11 +215,12 @@
     /*
      * HOME PAGE
      */
-        .home-container .quote-container-row {
-            height: 250px;
+        .home-container .title h1 {
+            font-size: 2rem;
         }
-        .home-container .quote-container-row img {
-            top: -170px;
+        .home-container .quote-container .quote{
+            font-size: 2rem;
+            line-height: 2rem;
         }
 
     /*
@@ -213,6 +248,12 @@
     /*
      * HOME PAGE
      */
+        .home-container .hero-text {
+            padding-left: 1.25rem;
+            padding-right: 1.25rem;
+            font-size: 1.25rem;
+        }
+
         .home-container .quote-container {
             width: 50%;
         }
