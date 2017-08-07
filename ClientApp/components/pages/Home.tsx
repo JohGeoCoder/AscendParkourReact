@@ -53,7 +53,7 @@ export class Home extends React.Component<{}, {}> {
                     <div className="quote-container flexbox-item">
                         <div className="image cover climb">
                             <div className="quote">
-                                <span>Begin Your Ascent</span>
+                                <span><NavItem linkText="Begin Your Ascent" url="/classes" /></span>
                             </div>
                         </div>
                     </div>

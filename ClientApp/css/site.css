@@ -125,10 +125,6 @@
     }
 
     .home-container .quote-container .quote{
-        position: absolute;
-        /*top: 50%;*/
-        left: 50%;
-        transform: translate(-50%, 0);
         width: 100%;
         color: rgba(255,255,255,0.75);
         font-size: 1.5rem;
@@ -138,6 +134,27 @@
         text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
         text-align: center;
         padding: 1rem;
+    }
+
+    /*Center the last quote vertically*/
+    .home-container .quote-container:last-child .quote{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-decoration: none;
+    }
+
+    .home-container .quote-container .quote a {
+        text-decoration: none;
+        color: rgba(255,255,255,1.0);
+    }
+
+    .home-container .quote-container:last-child .quote a span {
+        background-color: rgba(26, 233, 183, 0.75);
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+        padding: 0.5rem 3rem;
+        cursor: pointer;
     }
 
 /*
