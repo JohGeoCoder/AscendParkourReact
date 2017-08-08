@@ -124,6 +124,10 @@
         padding: 2px;
     }
 
+    .home-container .quote-container.full-width {
+        width: 100%;
+    }
+
     .home-container .quote-container .quote{
         width: 100%;
         color: rgba(255,255,255,0.75);
@@ -162,7 +166,7 @@
  */
     .image.cover {
         height: 100%;
-        background-size: cover; /* <------ */
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
     }
@@ -177,6 +181,10 @@
 
     .image.cover.climb {
         background-image: url(../images/Climb.jpeg);
+    }
+
+    .image.cover.franklin-steps {
+        background-image: url(../images/BenFranklinYann.jpg);
     }
 
 /*

@@ -23,7 +23,7 @@ export class Home extends React.Component<{}, {}> {
                 <div className="hero-text">
                     <p>
                         Ascend Parkour is a fitness community dedicated to guiding it's students
-                        towards personalized goals in a fun and engaging way using the holistic
+                        towards engaging personal development in a fun way using the holistic
                         movement discipline known as Parkour.
                     </p>
                     <p>
@@ -39,18 +39,25 @@ export class Home extends React.Component<{}, {}> {
                     <div className="quote-container flexbox-item">
                         <div className="image cover kid-vault">
                             <div className="quote">
-                                <span>Great things come from little things</span>
+                                <span>Progressive Improvement</span>
                             </div>
                         </div>
                     </div>
                     <div className="quote-container flexbox-item">
                         <div className="image cover rail-balance">
                             <div className="quote">
-                                <span>Those who bravely dare must sometimes risk a fall</span>
+                                <span>Self-Confidence</span>
                             </div>
                         </div>
                     </div>
                     <div className="quote-container flexbox-item">
+                        <div className="image cover franklin-steps">
+                            <div className="quote">
+                                <span>Community</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="quote-container full-width flexbox-item">
                         <div className="image cover climb">
                             <div className="quote">
                                 <span><NavItem linkText="Begin Your Ascent" url="/classes" /></span>
