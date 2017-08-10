@@ -8,13 +8,13 @@ export class About extends React.Component<{}, {}> {
 
     public render() {
         return (
-            <div>
+            <main className="about-container row">
                 <div className="row">
                     <div className="col-xs-12">
                         <h1>About</h1>
                     </div>
                 </div>
-            </div>
+            </main>
         );
     }
 }
