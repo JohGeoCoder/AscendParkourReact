@@ -159,6 +159,10 @@
         cursor: pointer;
     }
 
+    .home-container .quote-container:last-child .quote a .nav-item-content:hover {
+        background-color: rgba(12, 150, 117, 0.75)
+    }
+
 /*
  * RESPONSIVE BACKGROUND IMAGES
  */
