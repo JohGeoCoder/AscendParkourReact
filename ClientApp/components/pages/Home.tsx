@@ -39,14 +39,14 @@ export class Home extends React.Component<{}, {}> {
                     <div className="quote-container flexbox-item">
                         <div className="image cover kid-vault">
                             <div className="quote">
-                                <span>Progressive Improvement</span>
+                                <span>Improvement</span>
                             </div>
                         </div>
                     </div>
                     <div className="quote-container flexbox-item">
                         <div className="image cover rail-balance">
                             <div className="quote">
-                                <span>Self-Confidence</span>
+                                <span>Confidence</span>
                             </div>
                         </div>
                     </div>

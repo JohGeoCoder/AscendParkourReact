@@ -235,3 +235,6 @@ _Pvt_Extensions
 .fake/
 
 appsettings.json
+dist/main.js
+dist/main.js.map
+dist/site.css
