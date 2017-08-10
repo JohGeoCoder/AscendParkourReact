@@ -9,10 +9,11 @@ export class About extends React.Component<{}, {}> {
     public render() {
         return (
             <main className="about-container row">
-                <div className="row">
-                    <div className="col-xs-12">
-                        <h1>About</h1>
-                    </div>
+                <div className="title">
+                    <h1>About Ascend Parkour</h1>
+                </div>
+                <div className="hero-text">
+
                 </div>
             </main>
         );
