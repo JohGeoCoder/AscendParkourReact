@@ -211,11 +211,15 @@
         }
 
     /*
-     * HOME PAGE
+     * COMMON PAGE STYLES
      */
-        .home-container .title h1 {
+        .title h1 {
             font-size: 1.75rem;
         }
+
+    /*
+     * HOME PAGE
+     */
         .home-container .quote-container{
             width: 100%;
         }
@@ -236,11 +240,15 @@
         }
 
     /*
-     * HOME PAGE
+     * COMMON PAGE STYLES
      */
-        .home-container .title h1 {
+        .title h1 {
             font-size: 2rem;
         }
+
+    /*
+     * HOME PAGE
+     */
         .home-container .quote-container .quote{
             font-size: 2rem;
             line-height: 2rem;
@@ -269,14 +277,17 @@
         }
 
     /*
-     * HOME PAGE
+     * COMMON PAGE STYLES
      */
-        .home-container .hero-text {
+        .hero-text {
             padding-left: 1.25rem;
             padding-right: 1.25rem;
             font-size: 1.25rem;
         }
 
+    /*
+     * HOME PAGE
+     */
         .home-container .quote-container {
             width: 50%;
         }
