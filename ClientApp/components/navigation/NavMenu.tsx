@@ -7,11 +7,11 @@ export class NavMenu extends React.Component<{}, {}> {
         return (
             <div>
                 <nav className="row nav-container-row">
-                    <div className="nav-container">
-                        <NavItem linkText="Home" url="/" />
-                        <NavItem linkText="Classes" url="/classes" />
-                        <NavItem linkText="About Us" url="/about" />
-                        <NavItem linkText="Contact" url="/contact" />
+                    <div className="nav-container flexbox">
+                        <NavItem className="flexbox-item" linkText="Home" url="/" />
+                        <NavItem className="flexbox-item" linkText="Classes" url="/classes" />
+                        <NavItem className="flexbox-item" linkText="About Us" url="/about" />
+                        <NavItem className="flexbox-item" linkText="Contact" url="/contact" />
                     </div>
                 </nav>
             </div>

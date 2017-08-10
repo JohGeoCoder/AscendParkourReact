@@ -47,17 +47,12 @@
     .nav-container-row{
         position: relative
     }
+
     .nav-container-row .nav-container{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: stretch;
-        align-content: flex-start;
+
     }
 
     .nav-container-row .nav-container .nav-item {
-        flex-grow: 1;
-        flex-basis: auto;
         padding: 5px;
         width: 33%;
         text-decoration: none;
