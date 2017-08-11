@@ -67,8 +67,16 @@
         cursor: pointer;
     }
 
+    .nav-container-row .nav-container .nav-item .nav-item-content:hover{
+        background-color: rgb(34, 83, 177)
+    }
+
     .nav-container-row .nav-container .nav-item.active .nav-item-content {
         background-color: rgba(255, 108, 0, 1.0);
+    }
+
+    .nav-container-row .nav-container .nav-item.active .nav-item-content:hover{
+        background-color: rgb(218, 92, 0);
     }
 
     .nav-container-row .nav-container .nav-item .nav-item-content {
