@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { NavItem } from '../navigation/NavItem';
+import { PageTitle } from './page-components/PageTitle';
 
 const ImageAORGroup = require('../../images/AOR2016Group.jpg').toString();
 const ImageAORJahava = require('../../images/AORJahava.jpg').toString();
@@ -17,9 +18,7 @@ export class Home extends React.Component<{}, {}> {
     public render() {
         return (
             <main className="home-container row">
-                <div className="title">
-                    <h1>Ascend Parkour</h1>
-                </div>
+                <PageTitle titleText="Ascend Parkour" />
                 <div className="hero-text">
                     <p>
                         Ascend Parkour is a fitness community dedicated to guiding it's students
