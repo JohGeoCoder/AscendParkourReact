@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { NavItem } from '../navigation/NavItem';
 import { PageTitle } from './page-components/PageTitle';
+import { HeroText } from './page-components/HeroText';
 
 const ImageAORGroup = require('../../images/AOR2016Group.jpg').toString();
 const ImageAORJahava = require('../../images/AORJahava.jpg').toString();
@@ -19,7 +20,7 @@ export class Home extends React.Component<{}, {}> {
         return (
             <main className="home-container row">
                 <PageTitle titleText="Ascend Parkour" />
-                <div className="hero-text">
+                <HeroText>
                     <p>
                         Ascend Parkour is a fitness community dedicated to guiding it's students
                         towards engaging personal development in a fun way using the holistic
@@ -33,7 +34,7 @@ export class Home extends React.Component<{}, {}> {
                     <p>
                         <strong> Parkour is for ANYBODY, so please come as you are!</strong>
                     </p>
-                </div>
+                </HeroText>
                 <div className="flexbox">
                     <div className="quote-container flexbox-item">
                         <div className="image cover kid-vault">
