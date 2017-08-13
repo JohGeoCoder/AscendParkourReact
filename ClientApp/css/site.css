@@ -109,8 +109,8 @@
     }
 
     .hero-text {
-        padding-left: 1rem;
-        padding-right: 1rem;
+        /*padding-left: 1rem;
+        padding-right: 1rem;*/
         text-align: justify;
         font-size: 1rem;
     }
@@ -169,6 +169,13 @@
 
     .home-container .quote-container:last-child .quote a .nav-item-content:hover {
         background-color: rgba(12, 150, 117, 0.75)
+    }
+
+/*
+ * CLASSES PAGE
+ */
+    .classes-container .course h3{
+        margin-top: 0;
     }
 
 /*
@@ -292,8 +299,8 @@
      * COMMON PAGE STYLES
      */
         .hero-text {
-            padding-left: 1.25rem;
-            padding-right: 1.25rem;
+            /*padding-left: 1.25rem;
+            padding-right: 1.25rem;*/
             font-size: 1.25rem;
         }
 

@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { PageTitle } from './page-components/PageTitle';
+import { HeroText } from './page-components/HeroText';
 
 export class About extends React.Component<{}, {}> {
     constructor(props) {
@@ -11,9 +12,9 @@ export class About extends React.Component<{}, {}> {
         return (
             <main className="about-container row">
                 <PageTitle titleText="About Ascend Parkour" />
-                <div className="hero-text">
+                <HeroText>
 
-                </div>
+                </HeroText>
             </main>
         );
     }

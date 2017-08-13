@@ -1,6 +1,11 @@
 import * as React from 'react';
 import { PageTitle } from './page-components/PageTitle';
 import { HeroText } from './page-components/HeroText';
+import { Course } from './page-components/Course';
+
+const ImageKidVault = require('../../images/KidVault.jpeg').toString();
+
+
 
 export class Classes extends React.Component<{}, {}> {
     constructor(props) {
@@ -10,14 +15,40 @@ export class Classes extends React.Component<{}, {}> {
 
     public render() {
         return (
-            <div>
-                <div className="row">
-                    <PageTitle titleText="Ascend Parkour Classes" />
-                    <HeroText>
-
-                    </HeroText>
+            <main className="classes-container row">
+                <PageTitle titleText="Ascend Parkour Classes" />
+                <div className="col-xs-12">
+                    <div className="row">
+                        <div className="col-xs-12">
+                            <HeroText>
+                                <p>
+                                    Regardless what you hear or see online or on TV, parkour is achievable by
+                                    anybody willing to take a step outdoors. What you rarely see in the media
+                                    is the wide range of diversity among parkour practitioners.
+                                </p>
+                                <p>
+                                    Whether you're just getting into fitness or are a star athlete, it's the journey
+                                    towards your next goal that is most important. People of all levels of athletic
+                                    ability are welcome to join Ascend Parkour.
+                                </p>
+                            </HeroText>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-xs-12">
+                            <h2><strong>Private Lessons</strong></h2>
+                        </div>
+                    </div>
+                    <Course Image={ImageKidVault} >
+                        <h3><strong>Wings</strong> - Ages 4-6</h3>
+                        <p>
+                            Your child will get a jump-start by learning to explore, discover, and view the world with wonder.
+                        </p>
+                    </Course>
                 </div>
-            </div>
+            </main>
         );
     }
 }
+
+
