@@ -40,9 +40,24 @@ export class Classes extends React.Component<{}, {}> {
                         </div>
                     </div>
                     <Course Image={ImageKidVault} >
-                        <h3><strong>Wings</strong> - Ages 4-6</h3>
+                        <h3><strong>Sparrow</strong> - Ages 3 to 5</h3>
                         <p>
                             Your child will get a jump-start by learning to explore, discover, and view the world with wonder.
+                        </p>
+                    </Course>
+                    <Course Image={ImageKidVault} >
+                        <h3><strong>Hawk</strong> - Ages 6 to 8</h3>
+                        <p>
+                            This is a critical time for children to develop confidence in all areas of life. Your child will
+                            learn to manage fears and work towards surmounting them.
+                        </p>
+                    </Course>
+                    <Course Image={ImageKidVault} >
+                        <h3><strong>Eagle</strong> - Ages 9 to 12</h3>
+                        <p>
+                            Children at this age begin to experience more peer pressure. This is an important time for 
+                            children to gain a sense of responsibility along with their growing independence. Your child
+                            will learn how to reason through problems and make choices.
                         </p>
                     </Course>
                 </div>

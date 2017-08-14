@@ -4,6 +4,10 @@
         background-color: rgba(230,241,238,1);
     }
 
+    p {
+        font-size: 1rem;
+    }
+
     html h1,h2,h3,h4,h5,h6{
         color: rgb(51,51,51);
     }
@@ -109,10 +113,7 @@
     }
 
     .hero-text {
-        /*padding-left: 1rem;
-        padding-right: 1rem;*/
         text-align: justify;
-        font-size: 1rem;
     }
 
 /*
@@ -146,6 +147,8 @@
         padding: 1rem;
     }
 
+
+
     /*Center the last quote vertically*/
     .home-container .quote-container:last-child .quote{
         position: absolute;
@@ -174,6 +177,11 @@
 /*
  * CLASSES PAGE
  */
+    .classes-container .course{
+        padding-top: 0.5rem;;
+        padding-bottom: 0.5rem;
+    }
+
     .classes-container .course h3{
         margin-top: 0;
     }
