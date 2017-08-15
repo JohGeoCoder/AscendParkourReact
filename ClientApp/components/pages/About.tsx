@@ -12,9 +12,20 @@ export class About extends React.Component<{}, {}> {
         return (
             <main className="about-container row">
                 <PageTitle titleText="About Ascend Parkour" />
-                <HeroText>
-
-                </HeroText>
+                <div className="col-xs-12">
+                    <div className="row">
+                        <div className="col-xs-12">
+                            <HeroText>
+                                <p>
+                                    Ascend Parkour is committed to providing its students with a safe, engaging,
+                                    and memorable learning experience. Our mission is to help our students realize
+                                    their potential physically, mentally, emotionally, and interpersonally through
+                                    engaging personal development.
+                                </p>
+                            </HeroText>
+                        </div>
+                    </div>
+                </div>
             </main>
         );
     }
