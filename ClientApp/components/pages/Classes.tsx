@@ -36,7 +36,7 @@ export class Classes extends React.Component<{}, {}> {
                     </div>
                     <div className="row">
                         <div className="col-xs-12">
-                            <h2><strong>Private Lessons</strong></h2>
+                            <h2><strong>Kids Private Lessons</strong></h2>
                         </div>
                     </div>
                     <Course Image={ImageKidVault} >
@@ -58,6 +58,35 @@ export class Classes extends React.Component<{}, {}> {
                             Children at this age begin to experience more peer pressure. This is an important time for 
                             children to gain a sense of responsibility along with their growing independence. Your child
                             will learn how to reason through problems and make choices.
+                        </p>
+                    </Course>
+                    <div className="row">
+                        <div className="col-xs-12">
+                            <h2><strong>Adult Private Lessons</strong></h2>
+                        </div>
+                    </div>
+                    <Course Image={ImageKidVault} >
+                        <h3><strong>Joint Health</strong></h3>
+                        <p>
+                            Have weak joints been holding you back from doing the physical activities that you  want
+                            to do? This class is geared toward the gentle movement exercises that strengthen the
+                            supporting structures around joints.
+                        </p>
+                    </Course>
+                    <Course Image={ImageKidVault} >
+                        <h3><strong>Weight Management</strong></h3>
+                        <p>
+                            People use parkour to lose weight. This class will balance strength-building exercises
+                            with cardiovascular exercise to boost the metabolism. Discussion of nutrition will also
+                            be a part of this class.
+                        </p>
+                    </Course>
+                    <Course Image={ImageKidVault} >
+                        <h3><strong>Parkour Preparation</strong></h3>
+                        <p>
+                            This class is targeted towards students' individual goals befor joining the group classes. 
+                            Some people say they are clumsy, not strong enough, have to lose weight, have weak joints. 
+                            We can help you with all of that.
                         </p>
                     </Course>
                 </div>
