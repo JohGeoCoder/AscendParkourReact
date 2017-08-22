@@ -25,6 +25,11 @@ export class About extends React.Component<{}, {}> {
                             </HeroText>
                         </div>
                     </div>
+                    <div className="row">
+                        <div className="col-xs-12">
+
+                        </div>
+                    </div>
                 </div>
             </main>
         );
