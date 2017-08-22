@@ -18,7 +18,7 @@ export class CoursePrice extends React.Component<CoursePriceProps, {}> {
                         </div>
                     </div>
                     <div className="price-value flexbox-item">
-                        <p>{this.props.price}</p>
+                        <p>{this.props.price} - Book Now!</p>
                     </div>
                 </div>
             </div>
