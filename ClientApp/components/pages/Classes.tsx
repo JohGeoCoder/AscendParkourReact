@@ -99,19 +99,34 @@ export class Classes extends React.Component<{}, {}> {
                         <div className="col-xs-12">
                             <div className="course-price-container">
                                 <div className="flexbox">
-                                    <CoursePrice courseTitle="Adult Group Class - Ages 13+ - 2 Hours" price="$30 drop-in">
+                                    <CoursePrice
+                                        courseTitle="Adult Group Class - Ages 13+"
+                                        price="$30 drop-in"
+                                        duration="2 Hours">
                                         <p><strong>One month (2 classes) free with purchase of a 4-pack private lesson or higher</strong></p>
                                     </CoursePrice>
-                                    <CoursePrice courseTitle="One Private Lesson - 1 Hour Each" price="$50">
+                                    <CoursePrice
+                                        courseTitle="One Private Lesson"
+                                        price="$50"
+                                        duration="1 Hour Each">
 
                                     </CoursePrice>
-                                    <CoursePrice courseTitle="4-Pack Private Lesson - 1 Hour Each" price="$180">
+                                    <CoursePrice
+                                        courseTitle="4-Pack Private Lesson"
+                                        price="$180"
+                                        duration="1 Hour Each">
 
                                     </CoursePrice>
-                                    <CoursePrice courseTitle="One Private Lesson - 90 Minutes Each" price="$70">
+                                    <CoursePrice
+                                        courseTitle="One Private Lesson"
+                                        price="$70"
+                                        duration="90 Minutes Each">
 
                                     </CoursePrice>
-                                    <CoursePrice courseTitle="4-Pack Private Lesson - 90 Minutes Each" price="$240">
+                                    <CoursePrice
+                                        courseTitle="4-Pack Private Lesson"
+                                        price="$240"
+                                        duration="">
 
                                     </CoursePrice>
                                 </div>
