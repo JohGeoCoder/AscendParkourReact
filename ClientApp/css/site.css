@@ -22,6 +22,10 @@
         color: rgb(51,51,51);
     }
 
+    a:hover {
+        text-decoration: none;
+    }
+
     body, #react-app {
         background-color: rgba(0,0,0,0);
     }
@@ -222,7 +226,7 @@
         right: 0px;
     }
 
-    .classes-container .course-price-container .course-price .price-value p{
+    .classes-container .course-price-container .course-price .price-value a p{
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         margin: 0.5rem auto;
@@ -232,6 +236,10 @@
         color: white;
         font-weight: bold;
         font-size: 1.25rem;
+    }
+
+    .classes-container .course-price-container .course-price .price-value a:hover p {
+        background-color: rgb(232, 106, 14);
     }
 
 /*
@@ -353,13 +361,6 @@
             background-repeat: no-repeat;
             background-position: center center;
         }
-
-    /*
-     * CLASSES PAGE
-     */
-        .classes-container .course-price-container .course-price {
-            width: 44%;
-        }
 }
 
 /* Small Devices, Tablets */
@@ -378,8 +379,6 @@
      * COMMON PAGE STYLES
      */
         .hero-text {
-            /*padding-left: 1.25rem;
-            padding-right: 1.25rem;*/
             font-size: 1.25rem;
         }
 
@@ -388,6 +387,13 @@
      */
         .home-container .quote-container {
             width: 50%;
+        }
+
+    /*
+     * CLASSES PAGE
+     */
+        .classes-container .course-price-container .course-price {
+            width: 44%;
         }
 }
 

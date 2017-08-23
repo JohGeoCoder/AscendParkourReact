@@ -100,34 +100,33 @@ export class Classes extends React.Component<{}, {}> {
                             <div className="course-price-container">
                                 <div className="flexbox">
                                     <CoursePrice
+                                        courseTitle="One Private Lesson"
+                                        price="$50-70"
+                                        duration="60-90 Minutes Each">
+                                        <p>
+                                            <strong>Parents are encouraged to participate during their kids' private lessons!</strong>
+                                        </p>
+                                    </CoursePrice>
+                                    <CoursePrice
+                                        courseTitle="4-Pack Private Lesson"
+                                        price="$180-240"
+                                        duration="60-90 Minutes Each">
+                                        <p>
+                                            <strong>Parents are encouraged to participate during their kids' private lessons!</strong>
+                                        </p>
+                                    </CoursePrice>
+                                    <CoursePrice
                                         courseTitle="Adult Group Class - Ages 13+"
                                         price="$30 drop-in"
                                         duration="2 Hours">
-                                        <p><strong>One month (2 classes) free with purchase of a 4-pack private lesson or higher</strong></p>
-                                    </CoursePrice>
-                                    <CoursePrice
-                                        courseTitle="One Private Lesson"
-                                        price="$50"
-                                        duration="1 Hour Each">
-
-                                    </CoursePrice>
-                                    <CoursePrice
-                                        courseTitle="4-Pack Private Lesson"
-                                        price="$180"
-                                        duration="1 Hour Each">
-
-                                    </CoursePrice>
-                                    <CoursePrice
-                                        courseTitle="One Private Lesson"
-                                        price="$70"
-                                        duration="90 Minutes Each">
-
-                                    </CoursePrice>
-                                    <CoursePrice
-                                        courseTitle="4-Pack Private Lesson"
-                                        price="$240"
-                                        duration="">
-
+                                        <p>
+                                            <strong>
+                                                One month (2 classes) free with purchase of a 4-pack private lesson.
+                                                <br />
+                                                Parents may take advantage of this deal in the place of their children if their children don't quite meet the age requirement!
+                                            </strong>
+                                        </p>
+                                        <p><strong></strong></p>
                                     </CoursePrice>
                                 </div>
                             </div>

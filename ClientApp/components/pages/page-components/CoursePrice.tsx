@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
 interface CoursePriceProps {
     courseTitle: String,
@@ -22,7 +23,7 @@ export class CoursePrice extends React.Component<CoursePriceProps, {}> {
                         </div>
                     </div>
                     <div className="price-value flexbox-item">
-                        <p>{this.props.price} - Book Now!</p>
+                        <NavLink to="/"><p>{this.props.price} - Book Now!</p></NavLink>
                     </div>
                 </div>
             </div>
