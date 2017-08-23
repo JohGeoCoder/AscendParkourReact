@@ -46,7 +46,7 @@ export class Home extends React.Component<{}, {}> {
                                 <div className="quote-container flexbox-item">
                                     <div className="image cover kid-vault">
                                         <div className="quote">
-                                            <span>Improvement</span>
+                                            <span>Progression</span>
                                         </div>
                                     </div>
                                 </div>
